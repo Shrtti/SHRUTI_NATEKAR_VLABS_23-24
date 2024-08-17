@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Assingment 8</title>
+       
+        <link rel="stylesheet" href="as8.css">
+    </head>
+    <body style="background-color:#FFF2E1;">
+        <script src="calc.js"></script>
+        <h1>Assignment 8</h1>
+       
+        <div class="flex-container">
+            <div class="sentence1">
+                <print>Enter first sentence: </print>
+                <input type="text" id="s1">
+            </div>
+    
+            <div class="sentence2">
+                Enter second sentence: <input type="text" id="s2">
+            </div>
+
+            <div class="length" id="sent">
+                <h4>Length Calculator</h4>
+                <br>
+                <button onclick="len()">Submit</button>
+                <p id="lenp"></p>
+            </div>
+
+            <div class="concatenate">
+                <h4>Concat Calculator</h4>
+                <br>
+                <button onclick="concat()">Submit</button>
+                <p id="conp"></p>
+            </div>
+
+            <div class="charat">
+                <h4>CharAt Calculator</h4>
+                <br>
+                <print>Enter location in sentence 1: </print>
+                <input type="number" id="c1" placeholder="Enter index"><br><br>
+                <print>Enter location in sentence 2: </print>
+                <input type="number" id="c2" placeholder="Enter index"><br><br>
+                <button onclick="charAt()">Submit</button>
+                <p id="cap"></p>
+            </div>
+
+            <div class="charcodeat">
+                <h4>CharCodeAt Calculator</h4>
+                <br>
+                <print>Enter location in sentence 1: </print>
+                <input type="number" id="ch1" placeholder="Enter index"><br><br>
+                <print>Enter location in sentence 2: </print>
+                <input type="number" id="ch2" placeholder="Enter index"><br><br>
+                <button onclick="charcodeAt()">Submit</button>
+                <p id="chap"></p>
+            </div>
+
+            <div class="indexof">
+                <h4>IndexOf Calculator</h4>
+                <br>
+                <print>Enter character to find: </print>
+                <input type="text" id="char1" placeholder="Enter character"><br><br>
+                <print>Enter character to find: </print>
+                <input type="text" id="char2" placeholder="Enter character"><br><br>
+                <button onclick="IndexOf()">Submit</button>
+                <p id="ino"></p>
+            </div>
+
+            <div class="replace">
+                <h4>Replace Calculator</h4>
+                <br>
+                <print>Enter letter to replace(sent1): </print>
+                <input type="text" id="chara1" placeholder="Enter character"><br><br>
+                <print>Enter replaced letter: </print>
+                <input type="text" id="rechar1" placeholder="Enter character"><br><br>
+                <print>Enter letter to replace(sent2): </print>
+                <input type="text" id="chara2" placeholder="Enter character"><br><br>
+                <print>Enter replaced letter: </print>
+                <input type="text" id="rechar2" placeholder="Enter character"><br><br>
+                <button onclick="Replace()">Submit</button>
+                <p id="rep"></p>
+            </div>
+
+            <div class="low">
+                <h4>Lowercase Converter</h4>
+                <br>
+                <button onclick="lower()">Submit</button>
+                <p id="lowp"></p>
+            </div>
+
+            <div class="up">
+                <h4>Uppercase Converter</h4>
+                <br>
+                <button onclick="upper()">Submit</button>
+                <p id="upp"></p>
+            </div>
+
+        </div>
+    </body>
+</html>
