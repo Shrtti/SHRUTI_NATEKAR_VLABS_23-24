@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial_scale=1.0">
+            <title>Form Assignment</title>
+            <h2 style="text-align:center;">Assignment 2</h2>
+    </head>
+
+    <body>
+        <h3 style="margin-left: 10px;">Registration Form</h3>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Personal Information:
+                </legend>
+
+                <label for="name">Enter your name: </label> 
+                <input type="text" id="name"><br><br>
+
+                <label for="email">Enter your e-mail address: </label>
+                <input type="email" id="email" autocomplete="on"><br><br>
+
+                <label for="phno">Enter your phone number: </label>
+                <input type="number" id="phno"><br><br>
+
+                <label for="dob">Enter your date of birth: </label>
+                <input type="date" id="dob"><br><br>
+
+                <label for="pwd">Enter your password: </label>
+                <input type="password" id="pwd"><br><br>
+
+                <label for="gen">Enter your gender: </label><br>
+                <label for="fem">Female </label>
+                <input type="radio" id="fem" name="gender">
+                <label for="male">Male </label>
+                <input type="radio" id="male" name="gender">
+                <label for="ot">Other </label>
+                <input type="radio" id="ot" name="gender"><br><br>
+
+
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend>
+                    Student Information:
+                </legend>
+
+                <label for="branch">Branch: </label> 
+                <input list="Branch" name="branch" id="branch">
+                <datalist id="Branch">
+                    <option value="Computer Engineering">
+                    <option value="Mechanical">
+                    <option value="ENTC">
+                    <option value="AI&DS">
+                    <option value="Electrical">
+                    <option value="IT">
+                    <option value="Printing">
+                </datalist><br><br>
+
+                <label for="year">Year: </label><br>
+                <label for="fe">FE </label>
+                <input type="radio" id="fe" name="Year">
+                <label for="se">SE </label>
+                <input type="radio" id="se" name="Year">
+                <label for="te">TE </label>
+                <input type="radio" id="te" name="Year">
+                <label for="be">BE </label>
+                <input type="radio" id="be" name="Year">
+                <br><br>
+            
+                <label for="lang">Languages: </label><br>
+                <input type="checkbox" id="lang1" name="lang1" value="English">
+                <label for="lang1">English </label><br>
+                <input type="checkbox" id="lang2" name="lang2" value="Marathi">
+                <label for="lang2">Marathi </label><br>
+                <input type="checkbox" id="lang3" name="lang3" value="Hindi">
+                <label for="lang3">Hindi </label><br><br>
+
+
+            </fieldset>
+            <br><br>
+            <input type="reset" value="Reset" style="margin-left:10px; margin-bottom:20px;">
+            <input type="submit" value="Submit" style="-bottom:20px;">
+        </form>
+    </body>
+</html>
